@@ -1,0 +1,482 @@
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  background-image:
+  url(../imagens/couro.jpg);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* define que as imagens tem que ter o tamanho máximo da div mãe */
+.responsivo {
+  width: 100%;
+}
+
+/* define o tamanho da caixa */
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+
+/* --- Mobile First--- Mobile First--- Mobile First---*/
+
+/* NAV  --- NAV  --- NAV */
+
+.bloco {
+background-image:
+url(../imagens/pano-de-saco.jpg);
+box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+padding: 24px;
+z-index: 99; 
+position: fixed;
+width: 100%;
+}
+
+.bloco_icone {
+  max-width: 200px;
+}
+
+.bloco_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.bloco_itens {
+  display: none;
+}
+
+.bloco_menu-hamburguer img {
+  border-radius: 2px;
+}
+
+/* HEADER  --- HEADER  --- HEADER */
+
+.header {
+  min-height: 130px;
+  height: 610px;
+  background-image:
+    url(../imagens/Cordel.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: flex-end;
+  color: rgba(255, 255, 255, 0.726);
+}
+
+.principal {
+  margin-bottom: 20px;
+}
+
+.principal_titulo {
+  text-transform: uppercase;
+  font-size: 200%;
+  font-weight: 900;
+  margin-left: 70%;
+  height: 200%;
+}
+
+/* --- SECTION Xô preconceito --- */
+
+.sessao1 {
+  padding: 3%;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.sobre_maria {
+  display: flex;
+  margin-left: 5%;
+}
+
+.titulos {
+  text-align: center;
+  font-size: 200%;
+  padding: 2%;
+  color: black;
+}
+
+.reprograma_perfil {
+  width: 15%;
+  border-radius: 5%;
+}
+
+.paragrafo_1 {
+  font-size: 10px;
+  text-align: justify;
+  padding-left: 17%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 6%;
+}
+
+.section_two {
+  margin-left: 35%;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+
+.paragrafo_2 {
+  text-align: center;
+  border: 8px solid black;
+  color: firebrick;
+  padding: 5%;
+  font-weight: 500;
+}
+
+.section_three {
+  padding: 0 10% 10% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+}
+
+.paragrafo_three {
+  text-align: justify;
+  font-size: 10px;
+  color: #7fb3b0;
+  padding: 0;
+}
+
+.tecnologia {
+  width: 100%;
+  padding: 10% 0 10% 0;
+}
+
+.section_four {
+  padding: 0% 10% 0% 10%;
+  background-color:#7cc7d4;
+}
+
+.sobre aretada {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.susane_aretada {
+  width: 30%;
+}
+
+.sobre_aretada{
+  font-size: 10px;
+  text-align: justify;
+  color: #3f4ed8;
+  line-height: 2;
+  font-weight: bold;
+}
+
+.section_five {
+  padding: 10%;
+  margin-left: 13%;
+  margin-right: 13%;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn_roxo {
+  color: white;
+  background-color: #3a8f9e;
+  display: block;
+  max-width: 200px;
+  text-align: center;
+  transition: all 0.5s;
+  margin: 0 auto;
+}
+
+.btn_roxo:hover,
+.btn_roxo:focus {
+  transform: translateY(-06px);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(144, 160, 201);
+}
+
+/* --- FOOTER --- FOOTER --- FOOTER ---*/
+
+.rodape {
+  background-color: #457982;
+  color: rgba(255, 255, 255, 0.815);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape_principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.rodape_principal > * {
+  margin: 16px 0;
+}
+
+.rodape_bloco > li {
+  font-size: 14px;
+  margin: 8px;
+}
+
+.rodape_bloco a {
+  transition: all 0.5s;
+}
+
+.rodape_bloco a:hover {
+  color: #8384c0;
+}
+
+.rodape_icone {
+  max-width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.rodape_cc {
+  width: 100%;
+  background-color: #3a3a3b;
+  font-size: 14px;
+  opacity: 0.5;
+  text-align: center;
+  padding: 10px;
+}
+
+/*  --- TABLET --- TABLET --- TABLET ---*/
+
+@media (min-width: 768px) {
+  /* --- NAV --- NAV --- NAV ---*/
+  
+  .bloco-icone {
+    max-width: 200px;
+  }
+
+  .bloco_itens {
+    position: static;
+    display: flex;
+    padding: 0;
+    width: auto;
+  }
+
+  .bloco_nav {
+    color: #000000;
+    margin-bottom: 0;
+  }
+
+  .bloco_itens ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+  }
+
+  .bloco_itens li {
+    font-size: 17px;
+    margin: 0 5px;
+  }
+
+  .bloco_itens.ativo {
+    display: block;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    background-color: #494582;
+    text-align: center;
+    padding: 48px 0;
+    transition: right 1s;
+  }
+
+  .bloco_itens li > a {
+    transition: all 0.2s;
+  }
+
+  .bloco_itens li > a:hover {
+    color: #9583c0;
+  }
+
+  .bloco_menu-hamburguer {
+    display: none;
+  }
+
+  /* --- HEADER --- HEADER --- HEADER ---*/
+  .header {
+    min-height: 75vh;
+    padding: 10px 100px;
+  }
+
+  /* --- SECTION ARRETADA  --- */
+  .titulos {
+    font-size: 30px;
+  }
+
+  .historia {
+    padding-bottom: 5%;
+  }
+
+  .paragrafo_1 {
+    font-size: 15px;
+  }
+
+  .paragrafo_2 {
+    font-size: 15px;
+  }
+
+  .paragrafo_three {
+    font-size: 15px;
+  }
+
+  .sobre_susane {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 18px;
+    font-size: 18px;
+  }
+
+  .btn_roxo {
+    max-width: 300px;
+  }
+
+  /* --- FOOTER --- FOOTER --- FOOTER ---*/
+  .rodape {
+    padding-top: 0;
+  }
+
+  .rodape_principal {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .rodape_icone img {
+    max-width: 300px;
+  }
+
+  .rodape_bloco > li {
+    font-size: 14px;
+  }
+
+  .rodape_redes-sociais img {
+    max-width: 32px;
+    margin-right: 8px;
+  }
+}
+
+/* --- DESKTOP--- --- DESKTOP--- --- DESKTOP--- */
+
+@media (min-width: 1440px) {
+	
+  .bloco-icone {
+	max-width: 200px;
+  }
+  .bloco_box {
+    max-width: 80%;
+  }
+
+  .header {
+    min-height: 120vh;
+  }
+
+  .bloco_itens li {
+    font-size: 20px;
+    margin: 0 16px;
+  }
+
+  .principal {
+    margin-bottom: 250px;
+  }
+
+  .principal_titulo {
+    font-size: 50px;
+    padding: 40px 200px 0px px;
+  }
+
+  .titulos {
+    font-size: 30px;
+    padding-bottom: 7%;
+  }
+
+  .sessao1 {
+    padding: 2% 20% 5% 20%;
+  }
+
+  .section_two {
+    padding: 0 20% 5% 20%;
+  }
+
+  .section_three {
+    padding: 0 20% 5% 20%;
+  }
+
+  .section_four {
+    padding: 0% 20% 0% 20%;
+    background-color: #b7bae5be;
+  }
+
+  .section_five {
+    padding: 5%;
+  }
+
+  .paragrafo_1 {
+    font-size: 20px;
+  }
+
+  .paragrafo_2 {
+    font-size: 20px;
+  }
+
+  .paragrafo_three {
+    font-size: 20px;
+  }
+
+  .tecnologia {
+    padding: 5% 0 5% 0;
+  }
+
+  .historia {
+    padding-bottom: 2%;
+    padding-right: 78%;
+  }
+
+  .sobre_susane {
+    font-size: 20px;
+  }
+
+  .btn {
+    padding: 25px;
+    font-size: 25px;
+  }
+
+  .btn_roxo{
+    max-width: 500px;
+  }
+}

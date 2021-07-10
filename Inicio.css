@@ -1,0 +1,400 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  background-image:
+  url(../Projeto-Oxente/imagens/couro.jpg);
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.img-responsive {
+width: 100%;
+}
+
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 950px;
+}
+
+.bloco {
+background-image:
+url(../Projeto-Oxente/imagens/pano-de-saco.jpg);
+box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+padding: 24px;
+z-index: 99; 
+position: fixed;
+width: 100%;
+}
+
+.bloco-icone {
+max-width: 200px;
+}
+
+.bloco-box {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+}
+
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+.bloco-itens {
+display: none;
+}
+
+.header {
+min-height: 40px; 
+height: 500px;
+background:
+          url(../Projeto-Oxente/imagens/literatua-cordel-1240x540.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: black;
+}
+
+.principal {
+margin-bottom: 20px;
+padding-right: 635px;
+}
+
+.titulo-principal {
+text-transform: uppercase;
+font-size: 22px;
+font-weight: 900;
+}
+
+.sub-titulo {
+font-weight: 300;
+margin: 10px 0 16px 0;
+font-size: 18px;
+
+}
+
+ul {
+padding: 0;
+}
+
+li {
+list-style: none;
+}
+
+.imagens_nordeste{
+  width: 15%;
+  border-radius: 5%;
+}
+
+.img-responsive {
+width: 100%;
+}
+
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+@media (min-width: 768px) {
+.bloco {
+  background-image:
+  url(../Projeto-Oxente/imagens/pano-de-saco.jpg);
+/*background-color: #000000;*/
+box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+padding: 24px;
+z-index: 99; 
+position: fixed;
+width: 100%;
+}
+
+.bloco-icone {
+max-width: 200px;
+}
+
+.bloco-box {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+}}
+
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 960px;
+}
+
+.bloco-itens {
+display: none;
+}
+
+.bloco-menu-hamburguer img {
+border-radius: 2px;
+}
+
+.header {
+min-height: 40px; 
+height: 500px;
+background:
+        url(../Projeto-Oxente/imagens/literatua-cordel-1240x540.png);
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+align-items: flex-end;
+text-align: center;
+color: black;
+}
+
+.principal {
+margin-bottom: 20px;
+}
+
+.titulo-principal {
+text-transform: uppercase;
+font-size: 48px;
+font-weight: 900;
+}
+
+.sub-titulo {
+font-weight: 300;
+margin: 10px 0 16px 0;
+font-size: 18px;
+
+}
+
+.oxente-titulo {
+font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+color: black;
+font-size: 27px;
+text-align: center;
+padding: 30px 0px 0px 30px;
+}
+
+.oxente-box {
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+color: black;
+}
+
+.oxente-perfil {
+max-width: 120px;
+margin: 48px;
+}
+
+.oxente-perfil a img {
+width: 300%;
+border-radius: 10px;
+}
+
+.oxente-perfil p {
+text-align: center;
+}
+
+.oxente-perfil a:hover {
+text-decoration: underline;
+}
+
+.oxente-perfil a:hover img {
+box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+
+
+@media (min-width: 768px) {
+
+.bloco-itens {
+position: static;
+display: flex;
+padding: 0;
+width: auto;
+}
+
+.bloco-nav { 
+color: #000000;
+margin-bottom: 0;
+}
+
+.bloco-itens ul {
+display: flex;
+justify-content: space-around;
+width: 100%;
+align-items: center;
+text-align: center;
+font-weight: 800;
+}
+
+.bloco-itens li {
+font-size: 17px;
+margin: 0 5px;
+}
+
+.bloco-itens.ativo {
+display: block;
+right: 0;
+top: 85px;
+width: 100%;
+background-color: #674582;
+text-align: center;
+padding: 48px 0;
+transition: right 1s;
+}
+
+.bloco-itens li > a {
+transition: all .2s;
+}
+
+.bloco-itens li > a:hover {
+color: #8387c0;
+}
+
+.bloco-menu-hamburguer {
+display: none;
+}
+
+.header {
+  min-height: 75vh;
+  text-align: left;
+  padding: 10px 100px;
+}
+
+.titulo-principal {
+    font-size: 28px;
+    background-color: white;
+}
+
+.sub-titulo {
+    font-size: 18px;
+    background-color: white;
+}
+
+.oxente-box > div {
+    max-width: 750px;
+    margin: 90px;
+}
+
+.oxente-perfil p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+@media (min-width: 1440px) {
+
+.bloco {
+  background-image:
+  url(../Projeto-Oxente/imagens/pano-de-saco.jpg);
+box-shadow: 0px 5px 5px rgba(0,0,0,.2);
+padding: 24px;
+z-index: 99; 
+position: fixed;
+width: 100%;
+}
+
+.bloco-icone {
+max-width: 200px;
+}
+
+.bloco-itens li {
+font-size: 14px;
+margin: 0 16px;
+}
+
+.bloco-box {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 90%;
+}
+
+/* define o tamanho da caixa */
+.container {
+margin: 0 auto;
+width: 100%;
+max-width: 1440px;
+}
+
+.bloco-itens {
+display: none;
+}
+
+.header {
+align-items: center;
+text-align: center;
+
+}
+
+.principal {
+margin-bottom: 20px;
+}
+
+.titulo-principal {
+text-transform: uppercase;
+font-size: 48px;
+font-weight: 900;
+}
+
+.sub-titulo {
+font-weight: 300;
+margin: 10px 0 16px 0;
+font-size: 18px;
+
+}
+
+.oxente-titulo {
+font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+color: #63458a;
+font-size: 20px;
+text-align: center;
+align-items: center;
+
+}
+
+.oxente-box {
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+color: #63458a;
+}
+
+.oxente-perfil {
+max-width: 120px;
+margin: 48px;
+}
+
+.oxente-perfil a img {
+width: 300%;
+border-radius: 10px;
+}
+
+.oxente-perfil p {
+text-align: center;
+}
+
+.oxente-perfil a:hover {
+text-decoration: underline;
+}
+
+.oxente-perfil a:hover img {
+box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+}
+}
