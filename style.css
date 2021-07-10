@@ -8,7 +8,7 @@
 
 main {
   background-image:
-  url(../Projeto-Oxente/imagens/couro.jpg);
+  url(/imagens/couro.jpg);
 }
 
 ul {
@@ -31,7 +31,7 @@ max-width: 950px;
 
 .bloco {
 background-image:
-url(../Projeto-Oxente/imagens/pano-de-saco.jpg);
+url(/imagens/pano-de-saco.jpg);
 box-shadow: 0px 5px 5px rgba(0,0,0,.2);
 padding: 24px;
 z-index: 99; 
@@ -64,7 +64,7 @@ display: none;
 min-height: 40px; 
 height: 500px;
 background:
-          url(../Projeto-Oxente/imagens/literatua-cordel-1240x540.png);
+          url(/imagens/literatua-cordel-1240x540.png);
 background-size: cover;
 background-repeat: no-repeat;
 display: flex;
@@ -117,7 +117,7 @@ max-width: 960px;
 @media (min-width: 768px) {
 .bloco {
   background-image:
-  url(../Projeto-Oxente/imagens/pano-de-saco.jpg);
+  url(/imagens/pano-de-saco.jpg);
 /*background-color: #000000;*/
 box-shadow: 0px 5px 5px rgba(0,0,0,.2);
 padding: 24px;
@@ -155,7 +155,7 @@ border-radius: 2px;
 min-height: 40px; 
 height: 500px;
 background:
-        url(../Projeto-Oxente/imagens/literatua-cordel-1240x540.png);
+        url(/imagens/literatua-cordel-1240x540.png);
 background-size: cover;
 background-repeat: no-repeat;
 display: flex;
@@ -301,7 +301,7 @@ display: none;
 
 .bloco {
   background-image:
-  url(../Projeto-Oxente/imagens/pano-de-saco.jpg);
+  url(/imagens/pano-de-saco.jpg);
 box-shadow: 0px 5px 5px rgba(0,0,0,.2);
 padding: 24px;
 z-index: 99; 
